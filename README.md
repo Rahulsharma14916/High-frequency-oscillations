@@ -1,63 +1,55 @@
-High-Frequency Oscillator Architectures
-Research Internship at IIT Roorkee
-Mentor: Dr. Sudeb Dasgupta
+# 📡 High-Frequency Oscillator Architectures  
+### 🏛️ Research Internship at IIT Roorkee  
+**Mentor: Dr. Sudeb Dasgupta**
 
-Overview
-This repository showcases the work carried out during my research internship at the Indian Institute of Technology (IIT) Roorkee, focused on the design, analysis, and implementation of high-frequency oscillators using Cadence Virtuoso.
+---
 
-Project Objective
-To explore and evaluate advanced oscillator architectures suitable for high-frequency applications, with a particular focus on:
+## 🔍 Overview  
+This repository documents my work during a research internship at **IIT Roorkee**, focused on the design and simulation of **high-frequency oscillators** using **Cadence Virtuoso**.  
+Key components of the project included:
 
-Ring Oscillators
+- Ring Oscillators  
+- Current Starved Voltage Controlled Oscillators (CSVCO)  
+- Delayed Scheme Negative Skew Ring Oscillators  
+- CMOS and CMOS Inverter Behavior  
 
-CSVCO (Current Starved Voltage Controlled Oscillator)
+---
 
-Delayed Scheme Negative Skew Ring Oscillators
+## 📘 Topics Covered  
 
-The study included both theoretical research and practical implementation through schematic design and simulation on Cadence Virtuoso.
+### 🔹 CMOS Fundamentals  
+- CMOS logic and inverter operation  
+- Voltage transfer characteristics (VTC)  
+- Role of W/L ratio on delay and switching threshold  
 
-Key Concepts Explored
-🧠 CMOS Fundamentals
-Working of CMOS logic and CMOS inverters
+### 🔹 Ring Oscillators  
+- Basic operation and frequency analysis  
+- Stage delay and frequency relationship  
+- Phase noise and power considerations  
 
-Switching behavior and voltage transfer characteristics (VTC)
+### 🔹 CSVCO (Current Starved VCO)  
+- Current limiting mechanism  
+- Voltage-controlled frequency tuning  
+- Simulation for delay and output swing  
 
-Role of transistor sizing (W/L ratio) on delay and power
+### 🔹 Delayed Scheme Negative Skew RO  
+- Concept of negative skew  
+- Delay control using feedback  
+- Comparison with conventional RO in performance  
 
-🔁 Ring Oscillators
-Basics of ring oscillator topology and phase noise
+---
 
-Frequency tuning through number of stages and delay elements
+## 🛠️ Tools & Technologies  
+- **Cadence Virtuoso**  
+- **Spectre Simulator (ADE)**  
+- CMOS 45nm PDK (or applicable node)   
 
-Power-delay trade-offs
+---
 
-⚡ Current Starved VCO (CSVCO)
-Control of frequency through current limiting branches
+## 📊 Simulations & Results  
+- Transient & AC analysis of each oscillator  
+- Delay, frequency, and power trade-offs  
+- Phase noise and stability improvements using skew techniques  
 
-Implementation of voltage-controlled delay stages
-
-Noise behavior and tuning range
-
-🕒 Delayed Scheme Negative Skew RO
-Study of negative skew techniques to improve frequency and reduce jitter
-
-Delay element manipulation using skewed clock schemes
-
-Simulation of improved performance metrics in comparison to traditional ROs
-
-Tools & Technologies
-Cadence Virtuoso (Schematic Editor, Spectre Simulator)
-
-Analog Design Environment (ADE)
-
-CMOS 45nm Technology Node (or whichever PDK was used)
-
-
-
-Simulations & Results
-Frequency and phase noise analysis of each oscillator topology
-
-Comparison of delay per stage and power consumption
-
-Transient and AC simulations for voltage swing and stability
+---
 
